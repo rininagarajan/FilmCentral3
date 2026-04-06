@@ -3,46 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kodak Gold</title>
-    <link rel="stylesheet" href="css/stylesheet_kg.css">
+    <title>FilmCentral</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rqw8wtp.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!--for the three lines for menu-->
 </head>
 <body>
-    <div id="scroll_container">
-      <div class="kodak_gold1">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320002.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320003.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320004.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320005.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320006.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320007.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320008.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320009.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_200/000096320010.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320011.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320012.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320013.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320014.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320015.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320016.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320017.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320018.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320019.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_201/000096320021.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000096320022.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000906320023.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000960320024.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/0000963020026.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000096320027.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000096320028.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000906320029.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_202/000096320030.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320031.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320032.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320033.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320035.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320035.jpg" alt="">
-       <img src="images/Kodak Gold 200/linus.kodak_gold_203/000096320037.jpg" alt="">
-      </div>
+     <div class="intro"> <!-- used ai to make a preliminary animation, i will be redoing this entire intro animation to make it exactly how i want it-->
+        <div class="camera">
+            <div class="shadow-box">fujifilm</div>
+            <div class="camera-top" ></div>
+            <div class="lens"></div>
+            <div class="shutter"></div>
+        </div>
+    </div>
+    <!--NOTES-->
+    <header class="main-header">
+        <h1>FilmCentral</h1>
+    </header>
+
+    <div class="parallax p1"> <!-- yt video, creates a 3d like effect when scrolling so would be nice for the home page -->
+        <div class="pcontent1">
+        <p>Welcome to FilmCentral</p>
+        </div>
+    </div>
+    <div class="parallax p2">
+        <div class="pcontent2">
+        <p>A Public Domain of Film Photos</p>
+        </div>
+    </div>
+    <div class="parallax p3">
+        <div class="pcontent3">
+        <p>To Make Choosing <br>Your Next Roll</p> <!--<br> is line break, no closer needed-->
+        </div>
+    </div>
+    <div class="parallax p4">
+        <div class="pcontent4">
+        <p>Simpler.</p>
+        </div>
+    </div>
+    <div class="sidebar"> <!-- yt video, i got the typeface for the checkbox from there as well -->
+        <input type="checkbox" id="check">
+            <label for="check" class="menu_button">
+                <i class="fas fa-bars"></i>
+            </label>
+        <div class="sidebar_menu">
+            <div class="sidebar_title">
+                <a href="#">FilmCentral</a>
+            </div>
+            <div class="menu">
+                <ul>
+                     <li> <a href="kodak gold/Index.html"> Kodak Gold 200</a> </li>
+                     <li> <a href="#"> Kodak Ultramax 400</a> </li>
+                     <li> <a href="#"> Kodak Portra 400</a> </li>
+                     <li> <a href="#"> Kentmere 400</a> </li>
+                     <li> <a href="#"> Fujifilm Disposable 400</a> </li>
+                 </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
